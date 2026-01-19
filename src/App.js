@@ -88,11 +88,11 @@ import ContactPageFour from "./pages/ContactPageFour";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="Eramltd">
       <RouteScrollToTop />
       <ScrollToTop smooth color="#E8092E" />
       <Routes>
-        <Route exact path="" element={<HomePageOne />} />
+        <Route exact path="/" element={<HomePageOne />} />
         <Route exact path="/mechanical" element={<HomePageTwo />} />
         <Route exact path="/electrical" element={<HomePageThree />} />
         <Route exact path="/scaffolding" element={<HomePageFour />} />
