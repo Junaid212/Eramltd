@@ -54,7 +54,7 @@ const HeaderFive = () => {
             {/* <div className="col-auto d-none d-lg-block">
               <div className="header-logo">
                 <Link to="/">
-                  <img src="/assets/img/logo.svg" alt="Eram" />
+                  <img src="./assets/img/logo.svg" alt="Eram" />
                 </Link>
               </div>
             </div> */}
@@ -155,7 +155,7 @@ const HeaderFive = () => {
               <div className="col-auto  d-block">
                 <div className="header-logo">
                   <Link to="/mechanical">
-                    <img src="/assets/img/icon/14.png" alt="Eram" style={{height:'80px'}}/>
+                    <img src={process.env.PUBLIC_URL +"/assets/img/icon/14.png" }alt="Eram" style={{height:'80px'}}/>
                   </Link>
                 </div>
               </div>
@@ -178,7 +178,7 @@ const HeaderFive = () => {
               {/* <div className="col-auto header-sticky-logo">
                 <div className="header-logo">
                   <Link to="/">
-                    <img src="/assets/img/logo.svg" alt="Eram" />
+                    <img src="./assets/img/logo.svg" alt="Eram" />
                   </Link>
                 </div>
               </div> */}
@@ -645,7 +645,7 @@ const HeaderFive = () => {
           <div className="mobile-menu-area">
             <div className="mobile-logo">
               <Link to="/mechanical">
-                <img src="/assets/img/icon/14.png" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/icon/14.png"} alt="Eram" />
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
                 <i className="fa fa-times" />

@@ -88,7 +88,7 @@ import ContactPageFour from "./pages/ContactPageFour";
 
 function App() {
   return (
-    <BrowserRouter basename="Eramltd">
+    <BrowserRouter basename="/Eramltd">
       <RouteScrollToTop />
       <ScrollToTop smooth color="#E8092E" />
       <Routes>

@@ -77,28 +77,28 @@ const categories = [
   {
     id: 1,
     name: "Mechanical",
-    image: "./assets/img/fact/50.webp",
+    image: process.env.PUBLIC_URL + "/assets/img/fact/50.webp", 
     description: "Precision engineering solutions",
     link: "/mechanical"
   },
   {
     id: 2,
     name: "Electrical",
-    image: "./assets/img/fact/51.webp",
+    image:process.env.PUBLIC_URL + "/assets/img/fact/51.webp",
     description: "Advanced power systems",
     link: "/electrical"
   },
   {
     id: 3,
     name: "Scaffolding",
-    image: "./assets/img/fact/52.webp",
+    image: process.env.PUBLIC_URL +"/assets/img/fact/52.webp",
     description: "Structural support excellence",
     link: "/scaffolding"
   },
   {
     id: 4,
     name: "Power Project Systems",
-    image: "./assets/img/fact/53.webp",
+    image: process.env.PUBLIC_URL +"/assets/img/fact/53.webp",
     description: "Large-scale energy solutions",
     link: "/project-support-services"
   }
@@ -192,7 +192,7 @@ export default function HomePageOne() {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <span className="home-logo">
-                <img src="/assets/img/icon/14.png" alt="eram" style={{height:"70px"}}/>
+                <img src={process.env.PUBLIC_URL + "/assets/img/icon/14.png"} style={{height:"70px"}}/>
               </span>
               <span className="home-logo-accent">.</span>
             </motion.div>
