@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Eramltd/static/css/main.d8b8dbe6.css",
-    "main.js": "/Eramltd/static/js/main.256950ee.js",
+    "main.js": "/Eramltd/static/js/main.d1b35c6b.js",
     "static/js/453.fd2f0c4a.chunk.js": "/Eramltd/static/js/453.fd2f0c4a.chunk.js",
     "static/media/process-arrow-1-1.svg": "/Eramltd/static/media/process-arrow-1-1.a5e3e0d4d4853b56a320.svg",
     "static/media/process-arrow-1-2.svg": "/Eramltd/static/media/process-arrow-1-2.7ef5b5f1793618a3374d.svg",
     "index.html": "/Eramltd/index.html",
     "main.d8b8dbe6.css.map": "/Eramltd/static/css/main.d8b8dbe6.css.map",
-    "main.256950ee.js.map": "/Eramltd/static/js/main.256950ee.js.map",
+    "main.d1b35c6b.js.map": "/Eramltd/static/js/main.d1b35c6b.js.map",
     "453.fd2f0c4a.chunk.js.map": "/Eramltd/static/js/453.fd2f0c4a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8b8dbe6.css",
-    "static/js/main.256950ee.js"
+    "static/js/main.d1b35c6b.js"
   ]
 }
