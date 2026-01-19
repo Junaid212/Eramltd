@@ -77,28 +77,28 @@ const categories = [
   {
     id: 1,
     name: "Mechanical",
-    image: "/assets/img/fact/50.webp",
+    image: "./assets/img/fact/50.webp",
     description: "Precision engineering solutions",
     link: "/mechanical"
   },
   {
     id: 2,
     name: "Electrical",
-    image: "/assets/img/fact/51.webp",
+    image: "./assets/img/fact/51.webp",
     description: "Advanced power systems",
     link: "/electrical"
   },
   {
     id: 3,
     name: "Scaffolding",
-    image: "/assets/img/fact/52.webp",
+    image: "./assets/img/fact/52.webp",
     description: "Structural support excellence",
     link: "/scaffolding"
   },
   {
     id: 4,
     name: "Power Project Systems",
-    image: "/assets/img/fact/53.webp",
+    image: "./assets/img/fact/53.webp",
     description: "Large-scale energy solutions",
     link: "/project-support-services"
   }
