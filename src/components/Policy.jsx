@@ -23,13 +23,13 @@ export default function Policy() {
     <section className="contact-one">
       <div className="contact-one__wrap">
         <div className="contact-one__shape-1">
-          <img src='/assets/images/shapes/contact-one-shape-1.png' alt="Shape 1" />
+          <img src={process.env.PUBLIC_URL +"/assets/images/shapes/contact-one-shape-1.png"} alt="Shape 1" />
         </div>
         <div className="contact-one__shape-3">
-          <img src='/assets/images/shapes/contact-one-shape-3.png' alt="Shape 3" />
+          <img src={process.env.PUBLIC_URL +"/assets/images/shapes/contact-one-shape-3.png"} alt="Shape 3" />
         </div>
         <div className="contact-one__shape-4">
-          <img src='/assets/images/shapes/contact-one-shape-4.png' alt="Shape 4" />
+          <img src={process.env.PUBLIC_URL +"/assets/images/shapes/contact-one-shape-4.png"} alt="Shape 4" />
         </div>
         <div className="container">
           <div className="row">
@@ -146,9 +146,9 @@ export default function Policy() {
                   data-wow-delay="100ms"
                   data-wow-duration="2500ms"
                 >
-                  <img src='/assets/img/service/43.webp' alt="Contact" />
+                  <img src={process.env.PUBLIC_URL +"/assets/img/service/43.webp"} alt="Contact" />
                   <div className="contact-one__shape-2">
-                    <img src='/assets/images/shapes/contact-one-shape-2.png' alt="Shape 2" />
+                    <img src={process.env.PUBLIC_URL +"/assets/images/shapes/contact-one-shape-2.png"} alt="Shape 2" />
                   </div>
                 </div>
               </div>

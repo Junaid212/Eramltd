@@ -7,12 +7,12 @@ const AboutMudCrosshead = () => {
       <div className="about1-shape-img shape-mockup">
         <img
           className="about1-shape-img-1 spin"
-          src="/assets/img/normal/about_shape1-2.svg"
+          src={process.env.PUBLIC_URL +"/assets/img/normal/about_shape1-2.svg"}
           alt="Eram"
         />
         <img
           className="about1-shape-img-2 spin2"
-          src="/assets/img/normal/about_shape1-1.svg"
+          src={process.env.PUBLIC_URL +"/assets/img/normal/about_shape1-1.svg"}
           alt="Eram"
         />
       </div>
@@ -21,10 +21,10 @@ const AboutMudCrosshead = () => {
           <div className="col-xl-6">
             <div className="about-thumb1 mb-40 mb-xl-0">
               <div className="about-img-1">
-                <img src="/assets/img/normal/about_1-1.png" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/normal/about_1-1.png"} alt="Eram" />
               </div>
               {/* <div className="about-img-2">
-                <img src="/assets/img/normal/about_1-2.png" alt="Eram" />
+                <img src=process.env.PUBLIC_URL +"/assets/img/normal/about_1-2.png" alt="Eram" />
               </div> */}
             </div>
           </div>
@@ -48,7 +48,7 @@ const AboutMudCrosshead = () => {
                         maskImage: "url(assets/img/bg/about_counter-bg1-1.png)",
                       }}
                     >
-                      <img src="/assets/img/icon/about_icon1-1.svg" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/icon/about_icon1-1.svg"} alt="Eram" />
                       <h3 className="about-year-wrap-title">
                         <span className="counter-number">25</span>+
                       </h3>

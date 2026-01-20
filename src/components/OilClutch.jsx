@@ -13,7 +13,7 @@ const OilClutch = () => {
                 Oil field Clutch{" "}
                 <img
                   className="title-bg-shape shape-center"
-                  src="/assets/img/bg/title-bg-shape.png"
+                  src={process.env.PUBLIC_URL +"/assets/img/bg/title-bg-shape.png"}
                   alt="Eram"
                 />
               </h2>
@@ -25,7 +25,7 @@ const OilClutch = () => {
             <div className="pricing-card style2">
               <div className="pricing-card-icon-wrap">
                 <div className="pricing-card_icon">
-                  {/* <img src="/assets/img/icon/picing-icon_2-1.svg" alt="Eram" /> */}
+                  {/* <img src={process.env.PUBLIC_URL +"/assets/img/icon/picing-icon_2-1.svg" alt="Eram" /> */}
                 </div>
                 <h4 className="pricing-card_title">LT/AVB/CB Pneumatic Clutch</h4>
               </div>
@@ -61,7 +61,7 @@ const OilClutch = () => {
             <div className="pricing-card style2 pricing-card-active">
               <div className="pricing-card-icon-wrap">
                 <div className="pricing-card_icon">
-                  {/* <img src="/assets/img/icon/picing-icon_2-2.svg" alt="Eram" /> */}
+                  {/* <img src={process.env.PUBLIC_URL +"/assets/img/icon/picing-icon_2-2.svg" alt="Eram" /> */}
                 </div>
                 <h4 className="pricing-card_title">Common Pneumatic Clutch</h4>
               </div>
@@ -101,7 +101,7 @@ const OilClutch = () => {
             <div className="pricing-card style2">
               <div className="pricing-card-icon-wrap">
                 <div className="pricing-card_icon">
-                  {/* <img src="/assets/img/icon/picing-icon_2-3.svg" alt="Eram" /> */}
+                  {/* <img src={process.env.PUBLIC_URL +"/assets/img/icon/picing-icon_2-3.svg" alt="Eram" /> */}
                 </div>
                 <h4 className="pricing-card_title">Types</h4>
               </div>

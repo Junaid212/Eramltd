@@ -44,7 +44,7 @@ const ClientAreaOne = () => {
                 <div className="col-lg-auto">
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="/assets/img/elect/77.webp" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/elect/77.webp"} alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -53,7 +53,7 @@ const ClientAreaOne = () => {
                 <div className="col-lg-auto">
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="/assets/img/elect/78.webp" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/elect/78.webp"} alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -62,7 +62,7 @@ const ClientAreaOne = () => {
                 <div className="col-lg-auto">
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="/assets/img/elect/79.webp" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/elect/79.webp"} alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -71,7 +71,7 @@ const ClientAreaOne = () => {
                 <div className="col-lg-auto">
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="/assets/img/elect/80.webp" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/elect/80.webp"} alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -80,7 +80,7 @@ const ClientAreaOne = () => {
                 <div className="col-lg-auto">
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="/assets/img/elect/81.webp" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/elect/81.webp"} alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -89,7 +89,7 @@ const ClientAreaOne = () => {
                 <div className="col-lg-auto">
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="/assets/img/elect/82.webp" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/elect/82.webp"} alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -98,7 +98,7 @@ const ClientAreaOne = () => {
                 <div className="col-lg-auto">
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="/assets/img/elect/83.webp" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/elect/83.webp"} alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -107,7 +107,7 @@ const ClientAreaOne = () => {
                 <div className="col-lg-auto">
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="/assets/img/elect/84.webp" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/elect/84.webp"} alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -116,7 +116,7 @@ const ClientAreaOne = () => {
                 <div className="col-lg-auto">
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="/assets/img/elect/85.webp" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/elect/85.webp"} alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -125,7 +125,7 @@ const ClientAreaOne = () => {
                 <div className="col-lg-auto">
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="/assets/img/elect/86.webp" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/elect/86.webp"} alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -224,7 +224,7 @@ const ClientAreaOne = () => {
         </div>
         <div className="appointment-thumb-1">
           <img
-            src="/assets/img/normal/appointment-thumb-1-1.png"
+            src={process.env.PUBLIC_URL +"/assets/img/normal/appointment-thumb-1-1.png"
             alt="Eram"
           />
         </div>

@@ -28,7 +28,7 @@ const ServiceAreaFour = () => {
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="/assets/img/icon/service-icon_1-1.svg" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/icon/service-icon_1-1.svg"} alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/service-details">Mechanic Masters</Link>
@@ -51,7 +51,7 @@ const ServiceAreaFour = () => {
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="/assets/img/icon/service-icon_1-2.svg" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/icon/service-icon_1-2.svg"} alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/service-details">Speedy Auto Repair</Link>
@@ -74,7 +74,7 @@ const ServiceAreaFour = () => {
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="/assets/img/icon/service-icon_1-3.svg" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/icon/service-icon_1-3.svg"} alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/service-details">Precision Auto Works</Link>

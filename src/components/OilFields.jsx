@@ -7,12 +7,12 @@ const OilFields = () => {
       <div className="pricing-shape-img1 shape-mockup d-lg-block d-none">
         <img
           className="about1-shape-img-1 spin"
-          src="/assets/img/normal/about_shape1-2.svg"
+          src={process.env.PUBLIC_URL +"/assets/img/normal/about_shape1-2.svg"}
           alt="Eram"
         />
         <img
           className="about1-shape-img-2 spin2"
-          src="/assets/img/normal/about_shape1-1.svg"
+          src={process.env.PUBLIC_URL +"/assets/img/normal/about_shape1-1.svg"}
           alt="Eram"
         />
       </div>
@@ -36,7 +36,7 @@ const OilFields = () => {
                   <span className="duration">/month</span>
                 </h3>
                 <div className="pricing-card_icon">
-                  <img src="/assets/img/icon/picing-icon_1-1.svg" alt="Eram" />
+                  <img src={process.env.PUBLIC_URL +"/assets/img/icon/picing-icon_1-1.svg" alt="Eram" />
                 </div>
               </div> */}
               <div className="pricing-card-details">
@@ -71,7 +71,7 @@ const OilFields = () => {
                   <span className="duration">/month</span>
                 </h3>
                 <div className="pricing-card_icon">
-                  <img src="/assets/img/icon/picing-icon_1-2.svg" alt="Eram" />
+                  <img src={process.env.PUBLIC_URL +"/assets/img/icon/picing-icon_1-2.svg" alt="Eram" />
                 </div>
               </div> */}
               <div className="pricing-card-details">
@@ -106,7 +106,7 @@ const OilFields = () => {
                   <span className="duration">/month</span>
                 </h3>
                 <div className="pricing-card_icon">
-                  <img src="/assets/img/icon/picing-icon_1-3.svg" alt="Eram" />
+                  <img src={process.env.PUBLIC_URL +"/assets/img/icon/picing-icon_1-3.svg" alt="Eram" />
                 </div>
               </div> */}
               <div className="pricing-card-details">
@@ -137,7 +137,7 @@ const OilFields = () => {
                   <span className="duration">/month</span>
                 </h3>
                 <div className="pricing-card_icon">
-                  <img src="/assets/img/icon/picing-icon_1-4.svg" alt="Eram" />
+                  <img src={process.env.PUBLIC_URL +"/assets/img/icon/picing-icon_1-4.svg" alt="Eram" />
                 </div>
               </div> */}
               <div className="pricing-card-details">

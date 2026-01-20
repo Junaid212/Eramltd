@@ -10,7 +10,7 @@ const OilTube = () => {
             <div className="service-page-single">
               <div className="page-img mb-45">
                 <img
-                  src="/assets/img/portfolio/portfolio_details.png"
+                  src={process.env.PUBLIC_URL +"/assets/img/portfolio/portfolio_details.png"}
                   alt="Eram"
                 />
               </div>
@@ -39,7 +39,7 @@ const OilTube = () => {
                   <div className="col-sm-4">
                     <div className="page-img">
                       <img
-                        src="/assets/img/service/service-details1-2.png"
+                        src={process.env.PUBLIC_URL +"/assets/img/service/service-details1-2.png"}
                         alt="Eram"
                       />
                     </div>
@@ -47,7 +47,7 @@ const OilTube = () => {
                   <div className="col-sm-4">
                     <div className="page-img">
                       <img
-                        src="/assets/img/service/service-details1-3.png"
+                        src={process.env.PUBLIC_URL +"/assets/img/service/service-details1-3.png"}
                         alt="Eram"
                       />
                     </div>
@@ -55,7 +55,7 @@ const OilTube = () => {
                   <div className="col-sm-4">
                     <div className="page-img">
                       <img
-                        src="/assets/img/service/service-details1-3.png"
+                        src={process.env.PUBLIC_URL +"/assets/img/service/service-details1-3.png"}
                         alt="Eram"
                       />
                     </div>

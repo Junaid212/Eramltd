@@ -9,7 +9,7 @@ const Discharge = () => {
           <div className="col-xxl-8 col-lg-7">
             <div className="blog-details-card">
               <div className="blog-thumb">
-                <img src="/assets/img/blog/blog_details1_1.png" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/blog/blog_details1_1.png"} alt="Eram" />
               </div>
               <div className="blog-content">
                 <h2 className="blog-title h3">
@@ -43,7 +43,7 @@ const Discharge = () => {
                   <div className="col-sm-6">
                     <div className="blog-thumb mb-sm-0 mb-30">
                       <img
-                        src="/assets/img/blog/blog_details1_2.png"
+                        src={process.env.PUBLIC_URL +"/assets/img/blog/blog_details1_2.png"}
                         alt="Eram"
                       />
                     </div>
@@ -127,7 +127,7 @@ const Discharge = () => {
                     {/* <div className="media-img">
                       <Link to="#">
                         <img
-                          src="/assets/img#/recent-post1.png"
+                          src={process.env.PUBLIC_URL +"/assets/img#/recent-post1.png"
                           alt="Eram"
                         />
                       </Link>
@@ -159,7 +159,7 @@ const Discharge = () => {
                     {/* <div className="media-img">
                       <Link to="#">
                         <img
-                          src="/assets/img#/recent-post3.png"
+                          src={process.env.PUBLIC_URL +"/assets/img#/recent-post3.png"
                           alt="Eram"
                         />
                       </Link>

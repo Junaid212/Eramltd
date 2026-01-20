@@ -50,16 +50,16 @@ const BlogAreaTwo = () => {
   <div>
     <div className="blog-card style2">
       <div className="blog-img">
-        <img src="/assets/img/blog/blog_s2_1.png" alt="Eram" />
+        <img src={process.env.PUBLIC_URL +"/assets/img/blog/blog_s2_1.png"} alt="Eram" />
         <div className="blog-date">
-          <Link to="/blog">
+          <Link to="#">
             <span>01</span>
           </Link>
         </div>
       </div>
       <div className="blog-content">
         <h3 className="blog-title">
-          <Link to="/blog-details">
+          <Link to="/mechanical/fabrication">
             Fabrication
           </Link>
         </h3>
@@ -71,16 +71,16 @@ const BlogAreaTwo = () => {
   <div>
     <div className="blog-card style2">
       <div className="blog-img">
-        <img src="/assets/img/blog/blog_s2_2.png" alt="Eram" />
+        <img src={process.env.PUBLIC_URL +"/assets/img/blog/blog_s2_2.png"} alt="Eram" />
         <div className="blog-date">
-          <Link to="/blog">
+          <Link to="#">
             <span>02</span>
           </Link>
         </div>
       </div>
       <div className="blog-content">
         <h3 className="blog-title">
-          <Link to="/blog-details">
+          <Link to="/mechanical/civil-mechanical">
             Civil & Mechanical Contracts
           </Link>
         </h3>
@@ -92,16 +92,16 @@ const BlogAreaTwo = () => {
   <div>
     <div className="blog-card style2">
       <div className="blog-img">
-        <img src="/assets/img/blog/blog_s2_3.png" alt="Eram" />
+        <img src={process.env.PUBLIC_URL +"/assets/img/blog/blog_s2_3.png"} alt="Eram" />
         <div className="blog-date">
-          <Link to="/blog">
+          <Link to="#">
             <span>03</span>
           </Link>
         </div>
       </div>
       <div className="blog-content">
         <h3 className="blog-title">
-          <Link to="/blog-details">
+          <Link to="/mechanical/material-supply">
             Project Material Supply Management
           </Link>
         </h3>
@@ -113,16 +113,16 @@ const BlogAreaTwo = () => {
   <div>
     <div className="blog-card style2">
       <div className="blog-img">
-        <img src="/assets/img/blog/blog_s2_1.png" alt="Eram" />
+        <img src={process.env.PUBLIC_URL +"/assets/img/blog/blog_s2_1.png"} alt="Eram" />
         <div className="blog-date">
-          <Link to="/blog">
+          <Link to="#">
             <span>04</span>
           </Link>
         </div>
       </div>
       <div className="blog-content">
         <h3 className="blog-title">
-          <Link to="/blog-details">
+          <Link to="/mechanical/warehousing">
             Warehousing, Marshalling, & Logistics
           </Link>
         </h3>
@@ -134,16 +134,16 @@ const BlogAreaTwo = () => {
   <div>
     <div className="blog-card style2">
       <div className="blog-img">
-        <img src="/assets/img/blog/blog_s2_2.png" alt="Eram" />
+        <img src={process.env.PUBLIC_URL +"/assets/img/blog/blog_s2_2.png"} alt="Eram" />
         <div className="blog-date">
-          <Link to="/blog">
+          <Link to="#">
             <span>05</span>
           </Link>
         </div>
       </div>
       <div className="blog-content">
         <h3 className="blog-title">
-          <Link to="/blog-details">
+          <Link to="/mechanical/maintenance">
             Maintenance, Repair, & Overhaul
           </Link>
         </h3>
@@ -155,16 +155,16 @@ const BlogAreaTwo = () => {
   <div>
     <div className="blog-card style2">
       <div className="blog-img">
-        <img src="/assets/img/blog/blog_s2_3.png" alt="Eram" />
+        <img src={process.env.PUBLIC_URL +"/assets/img/blog/blog_s2_3.png"} alt="Eram" />
         <div className="blog-date">
-          <Link to="/blog">
+          <Link to="#">
             <span>06</span>
           </Link>
         </div>
       </div>
       <div className="blog-content">
         <h3 className="blog-title">
-          <Link to="/blog-details">
+          <Link to="/mechanical/technical-support">
             Technical Support & Value Added Services
           </Link>
         </h3>

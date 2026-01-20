@@ -10,7 +10,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/78.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/78.webp"}
                   alt="Eram"
                 />
               </div>
@@ -20,7 +20,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/79.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/79.webp"}
                   alt="Eram"
                 />
               </div>
@@ -30,7 +30,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/80.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/80.webp"}
                   alt="Eram"
                 />
               </div>
@@ -40,7 +40,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/81.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/81.webp"}
                   alt="Eram"
                 />
               </div>
@@ -50,7 +50,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/82.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/82.webp"}
                   alt="Eram"
                 />
               </div>
@@ -60,7 +60,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/83.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/83.webp"}
                   alt="Eram"
                 />
               </div>
@@ -70,7 +70,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/84.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/84.webp"}
                   alt="Eram"
                 />
               </div>
@@ -80,7 +80,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/85.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/85.webp"}
                   alt="Eram"
                 />
               </div>
@@ -90,7 +90,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/86.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/86.webp"}
                   alt="Eram"
                 />
               </div>
@@ -100,7 +100,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/87.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/87.webp"}
                   alt="Eram"
                 />
               </div>
@@ -110,7 +110,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/88.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/88.webp"}
                   alt="Eram"
                 />
               </div>
@@ -120,7 +120,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/89.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/89.webp"}
                   alt="Eram"
                 />
               </div>
@@ -130,7 +130,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/90.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/90.webp"}
                   alt="Eram"
                 />
               </div>
@@ -140,7 +140,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/77.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/77.webp"}
                   alt="Eram"
                 />
               </div>
@@ -150,7 +150,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/170.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/170.webp"}
                   alt="Eram"
                 />
               </div>
@@ -160,7 +160,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/171.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/171.webp"}
                   alt="Eram"
                 />
               </div>
@@ -170,7 +170,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/172.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/172.webp"}
                   alt="Eram"
                 />
               </div>
@@ -180,7 +180,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/173.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/173.webp"}
                   alt="Eram"
                 />
               </div>
@@ -190,7 +190,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/174.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/174.webp"}
                   alt="Eram"
                 />
               </div>
@@ -200,7 +200,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/175.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/175.webp"}
                   alt="Eram"
                 />
               </div>
@@ -210,7 +210,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/176.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/176.webp"}
                   alt="Eram"
                 />
               </div>
@@ -220,7 +220,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/177.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/177.webp"}
                   alt="Eram"
                 />
               </div>
@@ -230,7 +230,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/178.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/178.webp"}
                   alt="Eram"
                 />
               </div>
@@ -240,7 +240,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/179.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/179.webp"}
                   alt="Eram"
                 />
               </div>
@@ -250,7 +250,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/180.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/180.webp"}
                   alt="Eram"
                 />
               </div>
@@ -260,7 +260,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/181.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/181.webp"}
                   alt="Eram"
                 />
               </div>
@@ -270,7 +270,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/182.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/182.webp"}
                   alt="Eram"
                 />
               </div>
@@ -280,7 +280,7 @@ const Brand = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/183.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/183.webp"}
                   alt="Eram"
                 />
               </div>

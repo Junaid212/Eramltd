@@ -11,7 +11,7 @@ const TeamDetails = () => {
                 <div className="team-about-card_img">
                   <img
                     className="w-100"
-                    src="/assets/img/team/team-details.png"
+                    src={process.env.PUBLIC_URL +"/assets/img/team/team-details.png"}
                     alt="team "
                   />
                 </div>

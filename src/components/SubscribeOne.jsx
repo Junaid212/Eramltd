@@ -10,12 +10,12 @@ const SubscribeOne = () => {
       >
         <div className="footer-logo">
           <Link to="/electrical">
-            <img src="/assets/img/icon/14.png" alt="Eram" style={{height:'70px'}}/>
+            <img src={process.env.PUBLIC_URL +"/assets/img/icon/14.png"} alt="Eram" style={{height:'70px'}}/>
           </Link>
         </div>
         <div className="call-media-wrap">
           <div className="icon">
-            <img src="/assets/img/icon/phone-1.svg" alt="Eram" />
+            <img src={process.env.PUBLIC_URL +"/assets/img/icon/phone-1.svg"} alt="Eram" />
           </div>
           <div className="media-body">
             <h6 className="title text-white">Requesting A Call:</h6>

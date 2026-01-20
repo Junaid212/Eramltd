@@ -7,12 +7,12 @@ const AboutFive = () => {
       <div className="about1-shape-img shape-mockup">
         <img
           className="about1-shape-img-1 spin"
-          src="/assets/img/normal/about_shape1-2.svg"
+          src={process.env.PUBLIC_URL +"/assets/img/normal/about_shape1-2.svg"}
           alt="Eram"
         />
         <img
           className="about1-shape-img-2 spin2"
-          src="/assets/img/normal/about_shape1-1.svg"
+          src={process.env.PUBLIC_URL +"/assets/img/normal/about_shape1-1.svg"}
           alt="Eram"
         />
       </div>
@@ -21,7 +21,7 @@ const AboutFive = () => {
           <div className="col-xl-7 text-xl-center">
             <div className="about-thumb3 mb-40 mb-xl-0">
               <div className="about-img-1">
-                <img src="/assets/img/elect/58.webp" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/elect/58.webp"} alt="Eram" />
               </div>
             </div>
           </div>

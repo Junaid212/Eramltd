@@ -11,7 +11,7 @@ const MarqueeOne = () => {
               <div className="item">
                 <Link to="#">
                   <img
-                    src="/assets/img/icon/marquee-icon-1-1.svg"
+                    src={process.env.PUBLIC_URL +"/assets/img/icon/marquee-icon-1-1.svg"}
                     alt="Eram"
                   />
                   <span>We earn loyalty for our work</span>
@@ -20,7 +20,7 @@ const MarqueeOne = () => {
               <div className="item">
                 <Link to="#">
                   <img
-                    src="/assets/img/icon/marquee-icon-1-1.svg"
+                    src={process.env.PUBLIC_URL +"/assets/img/icon/marquee-icon-1-1.svg"}
                     alt="Eram"
                   />
                   <span className="text-stroke">listen to what customers want</span>
@@ -29,7 +29,7 @@ const MarqueeOne = () => {
               <div className="item">
                 <Link to="#">
                   <img
-                    src="/assets/img/icon/marquee-icon-1-1.svg"
+                    src={process.env.PUBLIC_URL +"/assets/img/icon/marquee-icon-1-1.svg"}
                     alt="Eram"
                   />
                   <span>We earn loyalty for our work</span>
@@ -38,7 +38,7 @@ const MarqueeOne = () => {
               <div className="item">
                 <Link to="#">
                   <img
-                    src="/assets/img/icon/marquee-icon-1-1.svg"
+                    src={process.env.PUBLIC_URL +"/assets/img/icon/marquee-icon-1-1.svg"}
                     alt="Eram"
                   />
                   <span className="text-stroke">listen to what customers want</span>

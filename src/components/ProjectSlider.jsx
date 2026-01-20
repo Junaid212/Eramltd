@@ -21,7 +21,7 @@ const ProjectSlider = () => {
           <div className="row flex-row-reverse align-items-center">
             <div className="col-md-6">
               <div className="hero-thumb text-center">
-                <img src="/assets/img/project/115.webp" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/project/115.webp"} alt="Eram" />
               </div>
             </div>
             <div className="col-md-6">
@@ -44,7 +44,7 @@ const ProjectSlider = () => {
           <div className="row flex-row-reverse align-items-center">
             <div className="col-md-6">
               <div className="hero-thumb text-center">
-                <img src="/assets/img/project/116.webp" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/project/116.webp"} alt="Eram" />
               </div>
             </div>
             <div className="col-md-6">
@@ -67,7 +67,7 @@ const ProjectSlider = () => {
           <div className="row flex-row-reverse align-items-center">
             <div className="col-md-6">
               <div className="hero-thumb text-center">
-                <img src="/assets/img/project/117.webp" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/project/117.webp"} alt="Eram" />
               </div>
             </div>
             <div className="col-md-6">
@@ -96,7 +96,7 @@ const ProjectSlider = () => {
                       style={{ backgroundColor: "#F2F2EF" }}
                     >
                       <div className="intro-card-img" style={{height:'265px', width:'100% !important'}}>
-                        <img src="/assets/img/project/118.webp" alt="Eram" />
+                        <img src={process.env.PUBLIC_URL +"/assets/img/project/118.webp"} alt="Eram" />
                       </div>
                       <div className="intro-card-details">
                         <h6 className="intro-card-subtitle">Service</h6>
@@ -116,7 +116,7 @@ const ProjectSlider = () => {
                       style={{ backgroundColor: "rgba(221, 76, 100, 0.3)" }}
                     >
                       <div className="intro-card-img">
-                        <img src="/assets/img/project/119.webp" alt="Eram" />
+                        <img src={process.env.PUBLIC_URL +"/assets/img/project/119.webp"} alt="Eram" />
                       </div>
                       <div className="intro-card-details">
                         <h6 className="intro-card-subtitle">Service</h6>
@@ -133,7 +133,7 @@ const ProjectSlider = () => {
                   <div className="col-lg-4 col-md-6">
                     <div className="hero-intro-card bg-theme">
                       <div className="intro-card-img">
-                        <img src="/assets/img/project/120.webp" alt="Eram" />
+                        <img src={process.env.PUBLIC_URL +"/assets/img/project/120.webp"} alt="Eram" />
                       </div>
                       <div className="intro-card-details">
                         <h6 className="intro-card-subtitle text-white">

@@ -26,7 +26,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-img">
                 <img
-                  src="/assets/img/update-img/product/1-1.png"
+                  src={process.env.PUBLIC_URL +"/assets/img/update-img/product/1-1.png"}
                   alt="Eram"
                 />
               </div>
@@ -54,7 +54,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-img">
                 <img
-                  src="/assets/img/update-img/product/1-2.png"
+                  src={process.env.PUBLIC_URL +"/assets/img/update-img/product/1-2.png"}
                   alt="Eram"
                 />
               </div>
@@ -82,7 +82,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-img">
                 <img
-                  src="/assets/img/update-img/product/1-3.png"
+                  src={process.env.PUBLIC_URL +"/assets/img/update-img/product/1-3.png"}
                   alt="Eram"
                 />
               </div>
@@ -110,7 +110,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-img">
                 <img
-                  src="/assets/img/update-img/product/1-4.png"
+                  src={process.env.PUBLIC_URL +"/assets/img/update-img/product/1-4.png"}
                   alt="Eram"
                 />
               </div>
@@ -138,7 +138,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-img">
                 <img
-                  src="/assets/img/update-img/product/1-5.png"
+                  src={process.env.PUBLIC_URL +"/assets/img/update-img/product/1-5.png"}
                   alt="Eram"
                 />
                 <span className="tag">
@@ -169,7 +169,7 @@ const ProductAreaTwo = () => {
             <div className="product-card list-view">
               <div className="product-img">
                 <img
-                  src="/assets/img/update-img/product/1-6.png"
+                  src={process.env.PUBLIC_URL +"/assets/img/update-img/product/1-6.png"}
                   alt="Eram"
                 />
               </div>

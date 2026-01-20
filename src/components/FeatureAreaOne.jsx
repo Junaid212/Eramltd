@@ -8,7 +8,7 @@ const FeatureAreaOne = () => {
           <div className="col-xl-3">
             <div className="single-feature-wrap">
               <div className="thumb">
-                <img src="/assets/img/intro/39.png" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/intro/39.png"} alt="Eram" />
               </div>
               <div className="media-body">
                 <h4>Wide Range Of Experience</h4>
@@ -19,7 +19,7 @@ const FeatureAreaOne = () => {
           <div className="col-xl-3">
             <div className="single-feature-wrap">
               <div className="thumb">
-                <img src="/assets/img/intro/40.png" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/intro/40.png"} alt="Eram" />
               </div>
               <div className="media-body">
                 <h4>Experts Across All Sectors</h4>
@@ -30,7 +30,7 @@ const FeatureAreaOne = () => {
           <div className="col-xl-3">
             <div className="single-feature-wrap">
               <div className="thumb">
-                <img src="/assets/img/intro/41.png" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/intro/41.png"} alt="Eram" />
               </div>
               <div className="media-body">
                 <h4>Committed to our Values</h4>
@@ -41,7 +41,7 @@ const FeatureAreaOne = () => {
           <div className="col-xl-3">
             <div className="single-feature-wrap">
               <div className="thumb">
-                <img src="/assets/img/intro/42.png" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/intro/42.png"} alt="Eram" />
               </div>
               <div className="media-body">
                 <h4>Experienced Professionals</h4>

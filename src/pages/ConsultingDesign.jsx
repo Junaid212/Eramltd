@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import FooterThree from "../components/FooterThree";
 import HeaderThree from "../components/HeaderThree";
 import Breadcrumb from "../components/Breadcrumb";
-import ProcessAreaTwo from "../components/ProcessAreaTwo";
 import CTAAreaOne from "../components/CTAAreaOne";
+import ProcessAreaTwo from "../components/ProcessAreaTwo";
 
 const ConsultingDesign = () => {
   return (
@@ -18,7 +18,7 @@ const ConsultingDesign = () => {
             <div className="service-page-single">
               <div className="page-img mb-45">
                 <img
-                  src="/assets/img/service/service-details1-1.png"
+                  src={process.env.PUBLIC_URL +"/assets/img/service/service-details1-1.png"}
                   alt="Eram"
                 />
               </div>
@@ -35,7 +35,7 @@ const ConsultingDesign = () => {
                   <div className="col-sm-6">
                     <div className="page-img">
                       <img
-                        src="/assets/img/service/service-details1-2.png"
+                        src={process.env.PUBLIC_URL +"/assets/img/service/service-details1-2.png"}
                         alt="Eram"
                       />
                     </div>
@@ -43,7 +43,7 @@ const ConsultingDesign = () => {
                   <div className="col-sm-6">
                     <div className="page-img">
                       <img
-                        src="/assets/img/service/service-details1-3.png"
+                        src={process.env.PUBLIC_URL +"/assets/img/service/service-details1-3.png"}
                         alt="Eram"
                       />
                     </div>

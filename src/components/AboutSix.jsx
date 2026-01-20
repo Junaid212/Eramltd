@@ -16,10 +16,10 @@ const AboutSix = () => {
             >
               <div className="about-two__img-box">
                 <div className="about-two__img">
-                  <img src="/assets/img/elect/121.webp" alt="About Us" />
+                  <img src={process.env.PUBLIC_URL +"/assets/img/elect/121.webp"} alt="About Us" />
                 </div>
                 <div className="about-two__shape-1">
-                  <img src="/assets/img/image.png" alt="Shape" />
+                  <img src={process.env.PUBLIC_URL +"/assets/img/image.png"} alt="Shape" />
                 </div>
                 {/* <div className="about-two__count-box">
                   <div className="about-two__count-icon">

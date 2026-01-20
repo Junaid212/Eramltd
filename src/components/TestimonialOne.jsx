@@ -11,7 +11,7 @@ const TestimonialOne = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="testimonial-thumb1">
-              <img src="/assets/img/testimonial/testimonial-1-1.png" alt="Eram" />
+              <img src={process.env.PUBLIC_URL +"/assets/img/testimonial/testimonial-1-1.png"} alt="Eram" />
             </div>
           </div>
           <div className="col-lg-6">
@@ -73,7 +73,7 @@ const TestimonialOne = () => {
                             </div>
                             <div className="quote-icon">
                               <img
-                                src="/assets/img/icon/quote1-1.svg"
+                                src={process.env.PUBLIC_URL +"/assets/img/icon/quote1-1.svg"}
                                 alt="Eram"
                               />
                             </div>
@@ -111,7 +111,7 @@ const TestimonialOne = () => {
                             </div>
                             <div className="quote-icon">
                               <img
-                                src="/assets/img/icon/quote1-1.svg"
+                                src={process.env.PUBLIC_URL +"/assets/img/icon/quote1-1.svg"}
                                 alt="Eram"
                               />
                             </div>
@@ -149,7 +149,7 @@ const TestimonialOne = () => {
                             </div>
                             <div className="quote-icon">
                               <img
-                                src="/assets/img/icon/quote1-1.svg"
+                                src={process.env.PUBLIC_URL +"/assets/img/icon/quote1-1.svg"}
                                 alt="Eram"
                               />
                             </div>

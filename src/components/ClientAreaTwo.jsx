@@ -41,7 +41,7 @@ const ClientAreaTwo = () => {
                 <div>
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="/assets/img/client/1-1.png" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/client/1-1.png" alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -50,7 +50,7 @@ const ClientAreaTwo = () => {
                 <div>
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="/assets/img/client/1-2.png" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/client/1-2.png" alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -59,7 +59,7 @@ const ClientAreaTwo = () => {
                 <div>
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="/assets/img/client/1-3.png" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/client/1-3.png" alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -68,7 +68,7 @@ const ClientAreaTwo = () => {
                 <div>
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="/assets/img/client/1-4.png" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/client/1-4.png" alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -77,7 +77,7 @@ const ClientAreaTwo = () => {
                 <div>
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="/assets/img/client/1-5.png" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/client/1-5.png" alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -86,7 +86,7 @@ const ClientAreaTwo = () => {
                 <div>
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="/assets/img/client/1-1.png" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/client/1-1.png" alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -95,7 +95,7 @@ const ClientAreaTwo = () => {
                 <div>
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="/assets/img/client/1-2.png" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/client/1-2.png" alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -105,7 +105,7 @@ const ClientAreaTwo = () => {
                 <div>
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="/assets/img/client/1-3.png" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/client/1-3.png" alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -114,7 +114,7 @@ const ClientAreaTwo = () => {
                 <div>
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="/assets/img/client/1-4.png" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/client/1-4.png" alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -123,7 +123,7 @@ const ClientAreaTwo = () => {
                 <div>
                   <div className="client-logo">
                     <Link to="/">
-                      <img src="/assets/img/client/1-5.png" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/client/1-5.png" alt="Eram" />
                     </Link>
                   </div>
                 </div>
@@ -145,7 +145,7 @@ const ClientAreaTwo = () => {
                   <h2 className="sec-title text-white">Vision 2030 is a bold yet achievable blueprint for an ambitious nation.</h2>
                 </div>
                 <div className="quote-icon">
-                  <img src="/assets/img/icon/quote2-1.svg" alt="Eram" />
+                  <img src={process.env.PUBLIC_URL +"/assets/img/icon/quote2-1.svg"} alt="Eram" />
                 </div>
                 <div className="row global-carousel testi-slider-2">
                   <Swiper
@@ -186,7 +186,7 @@ const ClientAreaTwo = () => {
                             {/* <div className="testi-card-profile">
                               <div className="testi-profile_thumb">
                                 <img
-                                  src="/assets/img/testimonial/testimonial-2-1.png"
+                                  src={process.env.PUBLIC_URL +"/assets/img/testimonial/testimonial-2-1.png"
                                   alt="Eram"
                                 />
                               </div>
@@ -216,7 +216,7 @@ const ClientAreaTwo = () => {
                             <div className="testi-card-profile">
                               <div className="testi-profile_thumb">
                                 <img
-                                  src="/assets/img/testimonial/testimonial-2-1.png"
+                                  src={process.env.PUBLIC_URL +"/assets/img/testimonial/testimonial-2-1.png"
                                   alt="Eram"
                                 />
                               </div>
@@ -245,7 +245,7 @@ const ClientAreaTwo = () => {
                             <div className="testi-card-profile">
                               <div className="testi-profile_thumb">
                                 <img
-                                  src="/assets/img/testimonial/testimonial-2-1.png"
+                                  src={process.env.PUBLIC_URL +"/assets/img/testimonial/testimonial-2-1.png"
                                   alt="Eram"
                                 />
                               </div>
@@ -274,7 +274,7 @@ const ClientAreaTwo = () => {
                             <div className="testi-card-profile">
                               <div className="testi-profile_thumb">
                                 <img
-                                  src="/assets/img/testimonial/testimonial-2-1.png"
+                                  src={process.env.PUBLIC_URL +"/assets/img/testimonial/testimonial-2-1.png"
                                   alt="Eram"
                                 />
                               </div>

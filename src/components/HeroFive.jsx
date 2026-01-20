@@ -48,7 +48,7 @@ const HeroFive = () => {
                   <div className="col-lg-6 align-self-end">
                     <div className="hero-thumb text-lg-center">
                       <img
-                        src="/assets/img/testimonial/testimonial-1-2.png"
+                        src={process.env.PUBLIC_URL +"/assets/img/testimonial/testimonial-1-2.png"}
                         alt="Eram"
                       />
                     </div>
@@ -89,7 +89,7 @@ const HeroFive = () => {
                   <div className="col-lg-6 align-self-end">
                     <div className="hero-thumb text-lg-center">
                       <img
-                        src="/assets/img/testimonial/testimonial-1-1.png"
+                        src={process.env.PUBLIC_URL +"/assets/img/testimonial/testimonial-1-1.png"}
                         alt="Eram"
                       />
                     </div>

@@ -21,7 +21,7 @@ const IntroAreaTwo = () => {
             <div className="single-intro-wrap style2">
               <span className="bg-border" />
               <div className="thumb">
-                <img src="/assets/img/elect/71.webp" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/elect/71.webp"} alt="Eram" />
               </div>
               <div className="details">
                 <h3>Transparency</h3>
@@ -39,7 +39,7 @@ const IntroAreaTwo = () => {
             <div className="single-intro-wrap style2">
               <span className="bg-border" />
               <div className="thumb">
-                <img src="/assets/img/elect/72.webp" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/elect/72.webp"} alt="Eram" />
               </div>
               <div className="details">
                 <h3>Ethical</h3>
@@ -57,7 +57,7 @@ const IntroAreaTwo = () => {
             <div className="single-intro-wrap style2">
               <span className="bg-border" />
               <div className="thumb">
-                <img src="/assets/img/elect/73.webp" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/elect/73.webp"} alt="Eram" />
               </div>
               <div className="details">
                 <h3>Professionalism</h3>
@@ -76,7 +76,7 @@ const IntroAreaTwo = () => {
             <div className="single-intro-wrap style2">
               <span className="bg-border" />
               <div className="thumb">
-                <img src="/assets/img/elect/74.webp" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/elect/74.webp"} alt="Eram" />
               </div>
               <div className="details">
                 <h3>Customer-Friendly</h3>

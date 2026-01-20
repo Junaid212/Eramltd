@@ -13,7 +13,7 @@ const Scaffold = () => {
                   <div className="col-sm-4">
                     <div className="page-img">
                       <img
-                        src="/assets/img/service/service-details1-2.png"
+                        src={process.env.PUBLIC_URL +"/assets/img/service/service-details1-2.png"}
                         alt="Eram"
                       />
                     </div>
@@ -21,7 +21,7 @@ const Scaffold = () => {
                   <div className="col-sm-4">
                     <div className="page-img">
                       <img
-                        src="/assets/img/service/service-details1-3.png"
+                        src={process.env.PUBLIC_URL +"/assets/img/service/service-details1-3.png"}
                         alt="Eram"
                       />
                     </div>
@@ -29,7 +29,7 @@ const Scaffold = () => {
                   <div className="col-sm-4">
                     <div className="page-img">
                       <img
-                        src="/assets/img/service/service-details1-3.png"
+                        src={process.env.PUBLIC_URL +"/assets/img/service/service-details1-3.png"}
                         alt="Eram"
                       />
                     </div>

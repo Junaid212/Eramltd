@@ -203,6 +203,28 @@ export default function MaterialsGrid() {
           </motion.div>
         </AnimatePresence>
       </div>
+      <style>{`
+      @media (max-width: 768px) {
+  .materials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .material-card {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .material-code {
+    font-size: 12px;
+  }
+
+  .material-name {
+    font-size: 10px;
+  }
+}
+      `}</style>
     </section>
   );
 }

@@ -10,7 +10,7 @@ const TransmissionSpareParts = () => {
           <div className="col-xxl-8 col-lg-7">
             <div className="blog-single-card">
               <div className="blog-thumb">
-                <img src="/assets/img/blog/blog_s1_1.png" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/blog/blog_s1_1.png"} alt="Eram" />
               </div>
               <div className="blog-content">
                 {/* <div className="blog-meta">
@@ -81,7 +81,7 @@ const TransmissionSpareParts = () => {
             </div>
             <div className="blog-single-card" >
               {/* <div className="blog-thumb">
-                <img src="/assets/img/blog/blog_s1_2.png" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/blog/blog_s1_2.png" alt="Eram" />
               </div> */}
               <div className="blog-content" style={{backgroundColor:'#FACED5'}}>
                 <h3 className="blog-title">
@@ -160,7 +160,7 @@ Cylindrical roller bearings
                     {/* <div className="media-img">
                       <Link to="/blog-details">
                         <img
-                          src="/assets/img/blog/recent-post1.png"
+                          src={process.env.PUBLIC_URL +"/assets/img/blog/recent-post1.png"
                           alt="Eram"
                         />
                       </Link>
@@ -180,7 +180,7 @@ Cylindrical roller bearings
                     {/* <div className="media-img">
                       <Link to="/blog-details">
                         <img
-                          src="/assets/img/blog/recent-post2.png"
+                          src={process.env.PUBLIC_URL +"/assets/img/blog/recent-post2.png"
                           alt="Eram"
                         />
                       </Link>

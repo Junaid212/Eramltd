@@ -9,13 +9,13 @@ const AboutFour = () => {
           <div className="col-xxl-7 col-xl-6">
             <div className="about-thumb2 mb-40 mb-xl-0">
               <div className="about-img-1">
-                <img src="/assets/img/normal/about_2-1.png" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/normal/about_2-1.png"} alt="Eram" />
               </div>
               <div className="about-img-2">
-                <img src="/assets/img/normal/about_2-2.png" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/normal/about_2-2.png"} alt="Eram" />
               </div>
               <div className="about-counter-wrap jump-reverse">
-                <img src="/assets/img/icon/about_icon2-1.svg" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/icon/about_icon2-1.svg"} alt="Eram" />
                 <h3 className="about-counter">
                   <TrackVisibility once>
                     {({ isVisible }) =>
@@ -34,7 +34,7 @@ const AboutFour = () => {
                 <div className="about-year-grid-wrap">
                   <div className="icon">
                     <img
-                      src="/assets/img/icon/about_icon2-2.png"
+                      src={process.env.PUBLIC_URL +"/assets/img/icon/about_icon2-2.png"}
                       alt="Eram"
                     />
                   </div>
@@ -71,7 +71,7 @@ const AboutFour = () => {
               </div>
               <div className="about-feature-wrap">
                 <div className="icon">
-                  <img src="/assets/img/icon/about_icon2-3.svg" alt="Eram" />
+                  <img src={process.env.PUBLIC_URL +"/assets/img/icon/about_icon2-3.svg"} alt="Eram" />
                 </div>
                 <div className="about-feature-wrap-details">
                   <h5 className="about-feature-title">
@@ -85,7 +85,7 @@ const AboutFour = () => {
               </div>
               <div className="about-feature-wrap">
                 <div className="icon">
-                  <img src="/assets/img/icon/about_icon2-4.svg" alt="Eram" />
+                  <img src={process.env.PUBLIC_URL +"/assets/img/icon/about_icon2-4.svg"} alt="Eram" />
                 </div>
                 <div className="about-feature-wrap-details">
                   <h5 className="about-feature-title">Pro Drive Garage</h5>

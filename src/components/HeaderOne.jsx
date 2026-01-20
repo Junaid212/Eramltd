@@ -100,7 +100,7 @@ const HeaderOne = () => {
           <div className="menu-area">
             <div className="header-navbar-logo">
               <Link to="/mechanical">
-                <img src="/assets/img/icon/14.png" alt="Eram" style={{height:'70px'}}/>
+                <img src={process.env.PUBLIC_URL +"/assets/img/icon/14.png"} alt="Eram" style={{height:'70px'}}/>
               </Link>
             </div>
             <div className="container">
@@ -108,7 +108,7 @@ const HeaderOne = () => {
                 <div className="col-auto d-xl-none d-block">
                   <div className="header-logo">
                     <Link to="/mechanical">
-                      <img src="/assets/img/icon/14.png" alt="Eram" style={{height:'70px'}}/>
+                      <img src={process.env.PUBLIC_URL +"/assets/img/icon/14.png"} alt="Eram" style={{height:'70px'}}/>
                     </Link>
                   </div>
                 </div>
@@ -554,7 +554,7 @@ const HeaderOne = () => {
           <div className="mobile-menu-area">
             <div className="mobile-logo">
               <Link to="/mechanical">
-                <img src="/assets/img/icon/14.png" alt="Eram" style={{height:'70px'}}/>
+                <img src={process.env.PUBLIC_URL +"/assets/img/icon/14.png"} alt="Eram" style={{height:'70px'}}/>
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
                 <i className="fa fa-times" />
@@ -829,8 +829,8 @@ const HeaderOne = () => {
        ))}
      </ul>
 </li>
-                <li className=" submenu-item-has-children">
-                  <Link to="/mechanical/service">Service</Link>
+                {/* <li className=" submenu-item-has-children">
+                  <Link to="/mechanical/service">Service</Link> */}
                   {/* <ul className="sub-menu submenu-class">
                     <li>
                       <NavLink
@@ -853,8 +853,8 @@ const HeaderOne = () => {
                       </NavLink>
                     </li>
                   </ul> */}
-                </li>
-                <li>
+                {/* </li> */}
+<li>
   <a
     href="/brochure/mechanical-brochure.pdf"
     target="_blank"

@@ -100,7 +100,7 @@ const [active, setActive] = useState(false);
           <div className="menu-area">
             <div className="header-navbar-logo">
               <Link to="/electrical">
-                <img src="/assets/img/icon/14.png" alt="Eram" style={{height:'70px'}}/>
+                <img src={process.env.PUBLIC_URL +"/assets/img/icon/14.png"} alt="Eram" style={{height:'70px'}}/>
               </Link>
             </div>
             <div className="container">
@@ -108,7 +108,7 @@ const [active, setActive] = useState(false);
                 <div className="col-auto d-xl-none d-block">
                   <div className="header-logo">
                     <Link to="/electrical">
-                      <img src="/assets/img/icon/14.png" alt="Eram" style={{height:'70px'}}/>
+                      <img src={process.env.PUBLIC_URL +"/assets/img/icon/14.png"} alt="Eram" style={{height:'70px'}}/>
                     </Link>
                   </div>
                 </div>
@@ -401,7 +401,7 @@ const [active, setActive] = useState(false);
                 </div>
                 {/* <div className="col-auto ms-auto d-xl-block d-none">
                   <div className="navbar-right-desc">
-                    <img src="/assets/img/icon/chat.svg" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/icon/chat.svg" alt="Eram" />
                     <div className="navbar-right-desc-details">
                       <h6 className="title">Need help?</h6>
                       <Link className="link" to="tel:+2590256215">
@@ -421,7 +421,7 @@ const [active, setActive] = useState(false);
           <div className="mobile-menu-area">
             <div className="mobile-logo">
               <Link to="/electrical">
-                <img src="/assets/img/icon/14.png" alt="Eram" style={{height:'70px'}}/>
+                <img src={process.env.PUBLIC_URL +"/assets/img/icon/14.png"} alt="Eram" style={{height:'70px'}}/>
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
                 <i className="fa fa-times" />

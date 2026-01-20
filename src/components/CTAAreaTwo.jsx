@@ -44,7 +44,7 @@ const CTAAreaTwo = () => {
             </div>
             <div className="col-lg-5">
               <div className="cta2-bg-thumb">
-                <img src="/assets/img/elect/93.webp" alt="Eram"/>
+                <img src={process.env.PUBLIC_URL +"/assets/img/elect/93.webp"} alt="Eram"/>
               </div>
             </div>
           </div>

@@ -32,12 +32,12 @@ const PortfolioOne = () => {
       <div className="portfolio-shape-img shape-mockup d-lg-block d-none">
         <img
           className="about1-shape-img-1 spin"
-          src="/assets/img/normal/about_shape1-2.svg"
+          src={process.env.PUBLIC_URL +"/assets/img/normal/about_shape1-2.svg"}
           alt="Eram"
         />
         <img
           className="about1-shape-img-2 spin2"
-          src="/assets/img/normal/about_shape1-1.svg"
+          src={process.env.PUBLIC_URL +"/assets/img/normal/about_shape1-1.svg"}
           alt="Eram"
         />
       </div>
@@ -151,7 +151,7 @@ const PortfolioOne = () => {
           <div className="col-lg-4 filter-item  pro1 ">
             <div className="portfolio-card image-container">
               <div className="portfolio-card-thumb">
-                <img src="/assets/img/elect/123.webp" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/elect/123.webp"} alt="Eram" />
               </div>
               {/* <div className="portfolio-card-details">
                 <div className="media-left">
@@ -171,7 +171,7 @@ const PortfolioOne = () => {
           <div className="col-lg-4 filter-item  pro1">
             <div className="portfolio-card image-container">
               <div className="portfolio-card-thumb">
-                <img src="/assets/img/elect/124.webp" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/elect/124.webp"} alt="Eram" />
               </div>
               {/* <div className="portfolio-card-details">
                 <div className="media-left">
@@ -192,7 +192,7 @@ const PortfolioOne = () => {
           <div className="col-lg-4 filter-item pro1">
             <div className="portfolio-card image-container">
               <div className="portfolio-card-thumb">
-                <img src="/assets/img/elect/125.webp" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/elect/125.webp"} alt="Eram" />
               </div>
               {/* <div className="portfolio-card-details">
                 <div className="media-left">
@@ -212,7 +212,7 @@ const PortfolioOne = () => {
           <div className="col-lg-4 filter-item pro2">
             <div className="portfolio-card image-container">
               <div className="portfolio-card-thumb">
-                <img src="/assets/img/elect/126.webp" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/elect/126.webp"} alt="Eram" />
               </div>
               {/* <div className="portfolio-card-details">
                 <div className="media-left">
@@ -232,14 +232,14 @@ const PortfolioOne = () => {
           <div className="col-lg-4 filter-item pro2">
             <div className="portfolio-card image-container">
               <div className="portfolio-card-thumb">
-                <img src="/assets/img/elect/127.webp" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/elect/127.webp"} alt="Eram" />
               </div>
             </div>
           </div>
           <div className="col-lg-4 filter-item pro2 ">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/128.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/128.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -247,7 +247,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro2">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/129.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/129.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -255,7 +255,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro3">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/130.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/130.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -263,7 +263,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro3">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/131.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/131.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -271,7 +271,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro3">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/132.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/132.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -279,7 +279,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro3">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/133.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/133.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -287,7 +287,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro4">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/134.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/134.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -295,7 +295,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro4 ">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/135.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/135.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -303,7 +303,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro4 ">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/136.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/136.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -311,7 +311,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro5">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/137.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/137.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -319,7 +319,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro5">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/138.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/138.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -327,7 +327,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro6">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/139.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/139.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -335,7 +335,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro6">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/140.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/140.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -343,7 +343,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro6">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/141.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/141.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -351,7 +351,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro7">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/142.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/142.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -359,7 +359,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro7">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/143.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/143.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -367,7 +367,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro7">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/144.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/144.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -375,7 +375,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro8">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/145.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/145.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -383,7 +383,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro8">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/146.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/146.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -391,7 +391,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro8">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/147.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/147.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -399,7 +399,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro8">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/148.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/148.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -407,7 +407,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro8">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/149.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/149.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -415,7 +415,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro9">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/150.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/150.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -423,7 +423,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro10">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/151.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/151.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -431,7 +431,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro10">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/152.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/152.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -439,7 +439,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro10">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/153.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/153.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -447,7 +447,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro10">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/154.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/154.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -455,7 +455,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro10">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/155.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/155.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -463,7 +463,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro10">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/156.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/156.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -471,7 +471,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro11">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/157.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/157.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -479,7 +479,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro11">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/158.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/158.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -487,7 +487,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro11">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/159.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/159.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -495,7 +495,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro11">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/160.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/160.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -503,7 +503,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro11">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/161.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/161.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -511,7 +511,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro11">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/162.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/162.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -519,7 +519,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro11">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/163.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/163.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -527,7 +527,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro11">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/164.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/164.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -535,7 +535,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro11">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/165.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/165.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -543,7 +543,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro12">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/166.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/166.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -551,7 +551,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro12">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/167.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/167.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -559,7 +559,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro12">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/168.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/168.webp"} alt="Eram" />
     </div>
   </div>
 </div>
@@ -567,7 +567,7 @@ const PortfolioOne = () => {
 <div className="col-lg-4 filter-item pro12">
   <div className="portfolio-card image-container">
     <div className="portfolio-card-thumb">
-      <img src="/assets/img/elect/169.webp" alt="Eram" />
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/169.webp"} alt="Eram" />
     </div>
   </div>
 </div>

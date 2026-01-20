@@ -4,15 +4,15 @@ import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
 import { Link } from "react-router-dom";
 const PortfolioFour = () => {
   const portfolioItems = [
-  { id: 1, image: "assets/img/scaff/101.webp", title: "Cuplock System", link: "/cuplock-system" },
-  { id: 2, image: "assets/img/scaff/102.webp", title: "Kwikstage & Ringlock Systems", link: "/kwikstage-ringlock-systems" },
-  { id: 3, image: "assets/img/scaff/103.webp", title: "Scaffolding Tubes, Couplers & Joint Access Systems", link: "/scaffolding-tubes-couplers-joint-access" },
-  { id: 5, image: "assets/img/scaff/104.webp", title: "Walking Boards & Planks (Wooden & Steel)", link: "/walking-boards-planks" },
-  { id: 6, image: "assets/img/scaff/105.webp", title: "Table Formwork Systems", link: "/table-formwork-systems" },
-  { id: 7, image: "assets/img/scaff/106.webp", title: "Aluminium System Scaffolds & Ladders", link: "/aluminium-system-scaffolds-ladders" },
-  { id: 8, image: "assets/img/scaff/107.webp", title: "Panel Systems for Wall & Column Framework", link: "/panel-systems-for-wall-column" },
-  { id: 9, image: "assets/img/scaff/108.webp", title: "Tower Scaffolds (Fixed & Mobile)", link: "/tower-scaffolds" },
-  { id: 10, image: "assets/img/scaff/109.webp", title: "Cantilever Frame & Korean Frame Systems", link: "/cantilever-frame-korean-frame" },
+  { id: 1, image: process.env.PUBLIC_URL +"assets/img/scaff/101.webp", title: "Cuplock System", link: "/cuplock-system" },
+  { id: 2, image: process.env.PUBLIC_URL +"assets/img/scaff/102.webp", title: "Kwikstage & Ringlock Systems", link: "/kwikstage-ringlock-systems" },
+  { id: 3, image: process.env.PUBLIC_URL +"assets/img/scaff/103.webp", title: "Scaffolding Tubes, Couplers & Joint Access Systems", link: "/scaffolding-tubes-couplers-joint-access" },
+  { id: 5, image: process.env.PUBLIC_URL +"assets/img/scaff/104.webp", title: "Walking Boards & Planks (Wooden & Steel)", link: "/walking-boards-planks" },
+  { id: 6, image: process.env.PUBLIC_URL +"assets/img/scaff/105.webp", title: "Table Formwork Systems", link: "/table-formwork-systems" },
+  { id: 7, image: process.env.PUBLIC_URL +"assets/img/scaff/106.webp", title: "Aluminium System Scaffolds & Ladders", link: "/aluminium-system-scaffolds-ladders" },
+  { id: 8, image: process.env.PUBLIC_URL +"assets/img/scaff/107.webp", title: "Panel Systems for Wall & Column Framework", link: "/panel-systems-for-wall-column" },
+  { id: 9, image: process.env.PUBLIC_URL +"assets/img/scaff/108.webp", title: "Tower Scaffolds (Fixed & Mobile)", link: "/tower-scaffolds" },
+  { id: 10, image: process.env.PUBLIC_URL +"assets/img/scaff/109.webp", title: "Cantilever Frame & Korean Frame Systems", link: "/cantilever-frame-korean-frame" },
 ];
 
   return (
@@ -26,7 +26,7 @@ const PortfolioFour = () => {
                 Scaffolding Systems{" "}
                 <img
                   className="title-bg-shape"
-                  src="/assets/img/bg/title-bg-shape.png"
+                  src={process.env.PUBLIC_URL +"/assets/img/bg/title-bg-shape.png"}
                   alt="Eram"
                 />
               </h2>
@@ -86,7 +86,7 @@ const PortfolioFour = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="/assets/img/portfolio/2-1.png" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/portfolio/2-1.png" alt="Eram" />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
@@ -105,7 +105,7 @@ const PortfolioFour = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="/assets/img/portfolio/2-2.png" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png" alt="Eram" />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
@@ -124,7 +124,7 @@ const PortfolioFour = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="/assets/img/portfolio/2-3.png" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/portfolio/2-3.png" alt="Eram" />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
@@ -143,7 +143,7 @@ const PortfolioFour = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="/assets/img/portfolio/2-2.png" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png" alt="Eram" />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
@@ -162,7 +162,7 @@ const PortfolioFour = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="/assets/img/portfolio/2-3.png" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/portfolio/2-3.png" alt="Eram" />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">

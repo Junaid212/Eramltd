@@ -10,7 +10,7 @@ const Clients = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/78.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/78.webp"}
                   alt="Eram"
                 />
               </div>
@@ -20,7 +20,7 @@ const Clients = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/79.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/79.webp"}
                   alt="Eram"
                 />
               </div>
@@ -30,7 +30,7 @@ const Clients = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/80.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/80.webp"}
                   alt="Eram"
                 />
               </div>
@@ -40,7 +40,7 @@ const Clients = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/81.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/81.webp"}
                   alt="Eram"
                 />
               </div>
@@ -50,7 +50,7 @@ const Clients = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/82.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/82.webp"}
                   alt="Eram"
                 />
               </div>
@@ -60,7 +60,7 @@ const Clients = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/83.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/83.webp"}
                   alt="Eram"
                 />
               </div>
@@ -70,7 +70,7 @@ const Clients = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/84.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/84.webp"}
                   alt="Eram"
                 />
               </div>
@@ -80,7 +80,7 @@ const Clients = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/85.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/85.webp"}
                   alt="Eram"
                 />
               </div>
@@ -90,7 +90,7 @@ const Clients = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/86.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/86.webp"}
                   alt="Eram"
                 />
               </div>
@@ -100,7 +100,7 @@ const Clients = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/87.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/87.webp"}
                   alt="Eram"
                 />
               </div>
@@ -110,7 +110,7 @@ const Clients = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/88.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/88.webp"}
                   alt="Eram"
                 />
               </div>
@@ -120,7 +120,7 @@ const Clients = () => {
             <div className="product-card ">
               <div className="product-img">
                 <img
-                  src="/assets/img/elect/89.webp"
+                  src={process.env.PUBLIC_URL +"/assets/img/elect/89.webp"}
                   alt="Eram"
                 />
               </div>

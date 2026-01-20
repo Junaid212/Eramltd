@@ -15,7 +15,7 @@ Your Success,
 One Project at a Time{" "}
                 <img
                   className="title-bg-shape shape-center"
-                  src="/assets/img/bg/title-bg-shape.png"
+                  src={process.env.PUBLIC_URL +"/assets/img/bg/title-bg-shape.png"
                   alt="Eram"
                 />
               </h2>
@@ -35,7 +35,7 @@ One Project at a Time{" "}
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="/assets/img/icon/service-icon_1-1.svg" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/icon/service-icon_1-1.svg"} alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/mechanical/fabrication">Cuplock System</Link>
@@ -61,7 +61,7 @@ One Project at a Time{" "}
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="/assets/img/icon/service-icon_1-2.svg" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/icon/service-icon_1-2.svg"} alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/mechanical/civil-mechanical">Kwikstage & Ringlock Systems</Link>
@@ -87,7 +87,7 @@ One Project at a Time{" "}
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="/assets/img/icon/service-icon_1-3.svg" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/icon/service-icon_1-3.svg"} alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/mechanical/material-supply">Scaffolding Tubes, Couplers & Joint Access Systems</Link>
@@ -113,7 +113,7 @@ One Project at a Time{" "}
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="/assets/img/icon/service-icon_1-3.svg" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/icon/service-icon_1-3.svg"} alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/mechanical/warehousing">Walking Boards & Planks (Wooden & Steel)</Link>
@@ -139,7 +139,7 @@ One Project at a Time{" "}
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="/assets/img/icon/service-icon_1-3.svg" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/icon/service-icon_1-3.svg"} alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/mechanical/maintenance">Table Formwork Systems</Link>
@@ -165,7 +165,7 @@ One Project at a Time{" "}
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="/assets/img/icon/service-icon_1-3.svg" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/icon/service-icon_1-3.svg"} alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/mechanical/technical-support">Aluminium System Scaffolds & Ladders</Link>
@@ -191,7 +191,7 @@ One Project at a Time{" "}
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="/assets/img/icon/service-icon_1-3.svg" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/icon/service-icon_1-3.svg"} alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/mechanical/technical-support">Panel Systems for Wall & Column Formwork</Link>
@@ -217,7 +217,7 @@ One Project at a Time{" "}
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="/assets/img/icon/service-icon_1-3.svg" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/icon/service-icon_1-3.svg"} alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/mechanical/technical-support">Tower Scaffolds (Fixed & Mobile)</Link>
@@ -243,7 +243,7 @@ One Project at a Time{" "}
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="/assets/img/icon/service-icon_1-3.svg" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/icon/service-icon_1-3.svg"} alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/mechanical/technical-support">Cantilever Frame & Korean Frame Systems</Link>

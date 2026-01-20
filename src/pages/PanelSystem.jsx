@@ -41,7 +41,7 @@ const PanelSystem = () => {
                   <div className="service-page-single">
                     <div className="page-img mb-45">
                       <img
-                        src="/assets/img/service/service-details1-1.png"
+                        src={process.env.PUBLIC_URL +"/assets/img/service/service-details1-1.png"}
                         alt="Eram"
                       />
                     </div>
@@ -58,7 +58,7 @@ const PanelSystem = () => {
                         <div className="col-sm-6">
                           <div className="page-img">
                             <img
-                              src="/assets/img/service/service-details1-2.png"
+                              src={process.env.PUBLIC_URL +"/assets/img/service/service-details1-2.png"}
                               alt="Eram"
                             />
                           </div>
@@ -66,7 +66,7 @@ const PanelSystem = () => {
                         <div className="col-sm-6">
                           <div className="page-img">
                             <img
-                              src="/assets/img/service/service-details1-3.png"
+                              src={process.env.PUBLIC_URL +"/assets/img/service/service-details1-3.png"}
                               alt="Eram"
                             />
                           </div>

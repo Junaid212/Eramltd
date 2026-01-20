@@ -9,7 +9,7 @@ const Banner = ()=> {
 <div class="wrap">
   <div class="wrapv">
     <div class="vertical">
-      <img src="/assets/img/elect/eram.png" alt="Eram"/>
+      <img src={process.env.PUBLIC_URL +"/assets/img/elect/eram.png"} alt="Eram"/>
     </div>
   </div>
           <div className="portfolio-area-1 overflow-hidden" id="portfolio-area-1">
@@ -58,7 +58,7 @@ const Banner = ()=> {
                         <div>
                           <div className="portfolio-card style2">
                             <div className="portfolio-card-thumb">
-                              <img src="/assets/img/icon/16.png" alt="Eram" id="img"/>
+                              <img src={process.env.PUBLIC_URL +"/assets/img/icon/16.png"} alt="Eram" id="img"/>
                             </div>
                             <div className="portfolio-card-details">
                               <div className="media-left">
@@ -76,7 +76,7 @@ Performance
                         <div>
                           <div className="portfolio-card style2">
                             <div className="portfolio-card-thumb">
-                              <img src="/assets/img/bg/20.webp" alt="Eram" id="img"/>
+                              <img src={process.env.PUBLIC_URL +"/assets/img/bg/20.webp"} alt="Eram" id="img"/>
                             </div>
                             <div className="portfolio-card-details">
                               <div className="media-left">
@@ -92,7 +92,7 @@ Performance
                         <div>
                           <div className="portfolio-card style2">
                             <div className="portfolio-card-thumb">
-                              <img src="/assets/img/bg/21.webp" alt="Eram" id="img"/>
+                              <img src={process.env.PUBLIC_URL +"/assets/img/bg/21.webp"} alt="Eram" id="img"/>
                             </div>
                             <div className="portfolio-card-details">
                               <div className="media-left">
@@ -108,7 +108,7 @@ Performance
                         <div>
                           <div className="portfolio-card style2">
                             <div className="portfolio-card-thumb">
-                              <img src="/assets/img/bg/22.webp" alt="Eram" id="img"/>
+                              <img src={process.env.PUBLIC_URL +"/assets/img/bg/22.webp"} alt="Eram" id="img"/>
                             </div>
                             <div className="portfolio-card-details">
                               <div className="media-left">
@@ -127,7 +127,7 @@ Performance
                         <div>
                           <div className="portfolio-card style2">
                             <div className="portfolio-card-thumb">
-                              <img src="/assets/img/bg/23.webp" alt="Eram" id="img"/>
+                              <img src={process.env.PUBLIC_URL +"/assets/img/bg/23.webp"} alt="Eram" id="img"/>
                             </div>
                             <div className="portfolio-card-details">
                               <div className="media-left">
@@ -146,7 +146,7 @@ Performance
                         <div>
                           <div className="portfolio-card style2">
                             <div className="portfolio-card-thumb">
-                              <img src="/assets/img/bg/24.webp" alt="Eram" id="img"/>
+                              <img src={process.env.PUBLIC_URL +"/assets/img/bg/24.webp"} alt="Eram" id="img"/>
                             </div>
                             <div className="portfolio-card-details">
                               <div className="media-left">
@@ -165,7 +165,7 @@ Performance
                         <div>
                           <div className="portfolio-card style2">
                             <div className="portfolio-card-thumb">
-                              <img src="/assets/img/bg/25.webp" alt="Eram" id="img"/>
+                              <img src={process.env.PUBLIC_URL +"/assets/img/bg/25.webp"} alt="Eram" id="img"/>
                             </div>
                             <div className="portfolio-card-details">
                               <div className="media-left">
@@ -184,7 +184,7 @@ Performance
                         <div>
                           <div className="portfolio-card style2">
                             <div className="portfolio-card-thumb">
-                              <img src="/assets/img/bg/26.webp" alt="Eram" id="img"/>
+                              <img src={process.env.PUBLIC_URL +"/assets/img/bg/26.webp"} alt="Eram" id="img"/>
                             </div>
                             <div className="portfolio-card-details">
                               <div className="media-left">

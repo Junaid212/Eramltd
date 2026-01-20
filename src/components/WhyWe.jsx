@@ -51,10 +51,10 @@ export default function WhyWe() {
                 <div className="why-we-are__right wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
                   <div className="why-we-are__img-box">
                     <div className="why-we-are__img">
-                      <img src="/assets/img/elect/122.webp" alt="Why-We-Are-img-1" style={{borderRadius:'20px'}}/>
+                      <img src={process.env.PUBLIC_URL +"/assets/img/elect/122.webp"} alt="Why-We-Are-img-1" style={{borderRadius:'20px'}}/>
                     </div>
                     {/* <div className="why-we-are__img-2">
-                      <img src="/assets/img/elect/59.webp" alt="Why-We-Are-img-1" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/elect/59.webp"} alt="Why-We-Are-img-1" />
                     </div> */}
                   </div>
                 </div>

@@ -15,7 +15,7 @@ Your Success,
 One Project at a Time{" "}
                 <img
                   className="title-bg-shape shape-center"
-                  src="/assets/img/bg/title-bg-shape.png"
+                  src={process.env.PUBLIC_URL +"/assets/img/bg/title-bg-shape.png"}
                   alt="Eram"
                 />
               </h2>
@@ -35,7 +35,7 @@ One Project at a Time{" "}
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="/assets/img/icon/service-icon_1-1.svg" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/icon/service-icon_1-1.svg"} alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/service-details">Scaffolding Material Sales & Rental</Link>
@@ -61,7 +61,7 @@ One Project at a Time{" "}
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="/assets/img/icon/service-icon_1-2.svg" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/icon/service-icon_1-2.svg"} alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/civil-mechanical">Scaffolding Tools & Accessories Supply</Link>
@@ -87,7 +87,7 @@ One Project at a Time{" "}
               >
                 <div>
                   <div className="service-card_icon">
-                    <img src="/assets/img/icon/service-icon_1-3.svg" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/icon/service-icon_1-3.svg"} alt="Eram" />
                   </div>
                   <h4 className="service-card_title h5">
                     <Link to="/material-supply">Consulting, Design & Inspection Services</Link>

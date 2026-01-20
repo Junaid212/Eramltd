@@ -4,36 +4,36 @@ import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
 import { Link } from "react-router-dom";
 const PortfolioTwo = () => {
   const portfolioItems = [
-  { id: 1, image: "/assets/img/portfolio/2-2.png", title: "Flanges", link: "/mechanical/flanges" },
-  { id: 2, image: "/assets/img/portfolio/2-2.png", title: "Stainless Steel Pipes", link: "/mechanical/stainless-steel-pipes" },
-  { id: 3, image: "/assets/img/portfolio/2-2.png", title: "Carbon Steel Pipes", link: "/mechanical/carbon-steel-pipes" },
-  { id: 4, image: "/assets/img/portfolio/2-2.png", title: "Butt-weld fittings", link: "/mechanical/butt-weld-fittings" },
-  { id: 5, image: "/assets/img/portfolio/2-2.png", title: "Forged fittings", link: "/mechanical/forged-fittings" },
-  { id: 6, image: "/assets/img/portfolio/2-2.png", title: "Valves", link: "/mechanical/valves" },
-  { id: 7, image: "/assets/img/portfolio/2-2.png", title: "Instrumentation Tube Fitting", link: "/mechanical/instrumentation-tube-fittings" },
-  { id: 8, image: "/assets/img/portfolio/2-2.png", title: "Cast Iron Dww Pipe Fittings System", link: "/mechanical/cast-iron-dww-pipe-fittings" },
-  { id: 9, image: "/assets/img/portfolio/2-2.png", title: "Fasteners", link: "/mechanical/fasteners" },
-  { id: 10, image: "/assets/img/portfolio/2-2.png", title: "PVDF Pipe Fittings & Valves", link: "/mechanical/pvdf-pipe-fittings-and-valves" },
-  { id: 11, image: "/assets/img/portfolio/2-2.png", title: "UPVC & CPVC", link: "/mechanical/upvc-cpvc" },
-  { id: 12, image: "/assets/img/portfolio/2-2.png", title: "Scaffolding materials", link: "/mechanical/scaffolding-materials" },
-  { id: 13, image: "/assets/img/portfolio/2-2.png", title: "Mud Pump and Spare Parts Assembly", link: "/mechanical/mud-pump-spares" },
-  { id: 14, image: "/assets/img/portfolio/2-2.png", title: "Crank Shaft Assembly for Mud Pump", link: "/mechanical/crank-shaft-assembly-for-mud-pump" },
-  { id: 15, image: "/assets/img/portfolio/2-2.png", title: "Pinion Shaft Assembly for Mud Pump", link: "/mechanical/pinion-shaft-assembly-for-mud-pump" },
-  { id: 16, image: "/assets/img/portfolio/2-2.png", title: "Hydraulic Cylinder Assembly for Mud Pump", link: "//mechanicalhydraulic-cylinder-assembly-for-mud-pump" },
-  { id: 17, image: "/assets/img/portfolio/2-2.png", title: "Mud Pump Fluid End Parts", link: "/mechanical/mud-pump-fluid-end-parts" },
-  { id: 18, image: "/assets/img/portfolio/2-2.png", title: "Mud Pump Crosshead Assembly", link: "/mechanical/mud-pump-crosshead-assembly" },
-  { id: 19, image: "/assets/img/portfolio/2-2.png", title: "Pulsation Dampener Assembly for Mud Pump", link: "/mechanical/pulsation-dampener-assembly-for-mud-pump" },
-  { id: 20, image: "/assets/img/portfolio/2-2.png", title: "Relief Valve For Mud Pump", link: "/mechanical/relief-valve-for-mud-pump" },
-  { id: 21, image: "/assets/img/portfolio/2-2.png", title: "Spray Lubrication System for Mud Pump", link: "/mechanical/spray-lubrication-system-for-mud-pump" },
-  { id: 22, image: "/assets/img/portfolio/2-2.png", title: "Discharge Strainer and Auxiliary Piping for Mud Pump", link: "/mechanical/discharge-strainer-and-auxiliary-piping-for-mud-pump" },
-  { id: 23, image: "/assets/img/portfolio/2-2.png", title: "Transmission Spare Parts", link: "/mechanical/transmission-spare-parts" },
-  { id: 24, image: "/assets/img/portfolio/2-2.png", title: "Oil field Clutch", link: "/mechanical/oil-field-clutch" },
-  { id: 25, image: "/assets/img/portfolio/2-2.png", title: "PS Series Hydraulic Disc Brake", link: "/mechanical/ps-series-hydraulic-disc-brake" },
-  { id: 26, image: "/assets/img/portfolio/2-2.png", title: "Drilling Rig and Spare Parts", link: "/mechanical/drilling-rig-and-spare-parts" },
-  { id: 27, image: "/assets/img/portfolio/2-2.png", title: "BOP Hoisting Equipment", link: "/mechanical/bop-hoisting-equipment" },
-  { id: 28, image: "/assets/img/portfolio/2-2.png", title: "Downhole Tool", link: "/mechanical/downhole-tool" },
-  { id: 29, image: "/assets/img/portfolio/2-2.png", title: "Oil Tube And Casing Pipe", link: "/mechanical/oil-tube-and-casing-pipe" },
-  { id: 30, image: "/assets/img/portfolio/2-2.png", title: "Pressure Transmitters & Transducers Portfolio", link: "/mechanical/pressure-transmitters-transducers-portfolio" }
+  { id: 1, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Flanges", link: "/mechanical/flanges" },
+  { id: 2, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Stainless Steel Pipes", link: "/mechanical/stainless-steel-pipes" },
+  { id: 3, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Carbon Steel Pipes", link: "/mechanical/carbon-steel-pipes" },
+  { id: 4, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Butt-weld fittings", link: "/mechanical/butt-weld-fittings" },
+  { id: 5, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Forged fittings", link: "/mechanical/forged-fittings" },
+  { id: 6, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Valves", link: "/mechanical/valves" },
+  { id: 7, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Instrumentation Tube Fitting", link: "/mechanical/instrumentation-tube-fittings" },
+  { id: 8, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Cast Iron Dww Pipe Fittings System", link: "/mechanical/cast-iron-dww-pipe-fittings" },
+  { id: 9, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Fasteners", link: "/mechanical/fasteners" },
+  { id: 10, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "PVDF Pipe Fittings & Valves", link: "/mechanical/pvdf-pipe-fittings-and-valves" },
+  { id: 11, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "UPVC & CPVC", link: "/mechanical/upvc-cpvc" },
+  { id: 12, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Scaffolding materials", link: "/mechanical/scaffolding-materials" },
+  { id: 13, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Mud Pump and Spare Parts Assembly", link: "/mechanical/mud-pump-spares" },
+  { id: 14, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Crank Shaft Assembly for Mud Pump", link: "/mechanical/crank-shaft-assembly-for-mud-pump" },
+  { id: 15, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Pinion Shaft Assembly for Mud Pump", link: "/mechanical/pinion-shaft-assembly-for-mud-pump" },
+  { id: 16, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Hydraulic Cylinder Assembly for Mud Pump", link: "//mechanicalhydraulic-cylinder-assembly-for-mud-pump" },
+  { id: 17, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Mud Pump Fluid End Parts", link: "/mechanical/mud-pump-fluid-end-parts" },
+  { id: 18, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Mud Pump Crosshead Assembly", link: "/mechanical/mud-pump-crosshead-assembly" },
+  { id: 19, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Pulsation Dampener Assembly for Mud Pump", link: "/mechanical/pulsation-dampener-assembly-for-mud-pump" },
+  { id: 20, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Relief Valve For Mud Pump", link: "/mechanical/relief-valve-for-mud-pump" },
+  { id: 21, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Spray Lubrication System for Mud Pump", link: "/mechanical/spray-lubrication-system-for-mud-pump" },
+  { id: 22, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Discharge Strainer and Auxiliary Piping for Mud Pump", link: "/mechanical/discharge-strainer-and-auxiliary-piping-for-mud-pump" },
+  { id: 23, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Transmission Spare Parts", link: "/mechanical/transmission-spare-parts" },
+  { id: 24, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Oil field Clutch", link: "/mechanical/oil-field-clutch" },
+  { id: 25, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "PS Series Hydraulic Disc Brake", link: "/mechanical/ps-series-hydraulic-disc-brake" },
+  { id: 26, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Drilling Rig and Spare Parts", link: "/mechanical/drilling-rig-and-spare-parts" },
+  { id: 27, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "BOP Hoisting Equipment", link: "/mechanical/bop-hoisting-equipment" },
+  { id: 28, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Downhole Tool", link: "/mechanical/downhole-tool" },
+  { id: 29, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Oil Tube And Casing Pipe", link: "/mechanical/oil-tube-and-casing-pipe" },
+  { id: 30, image: process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png", title: "Pressure Transmitters & Transducers Portfolio", link: "/mechanical/pressure-transmitters-transducers-portfolio" }
 ];
 
   return (
@@ -47,7 +47,7 @@ const PortfolioTwo = () => {
                 Products{" "}
                 <img
                   className="title-bg-shape"
-                  src="/assets/img/bg/title-bg-shape.png"
+                  src={process.env.PUBLIC_URL +"/assets/img/bg/title-bg-shape.png"}
                   alt="Eram"
                 />
               </h2>
@@ -107,7 +107,7 @@ const PortfolioTwo = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="/assets/img/portfolio/2-1.png" alt="Eram" />
+                    <img src=process.env.PUBLIC_URL +"/assets/img/portfolio/2-1.png" alt="Eram" />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
@@ -126,7 +126,7 @@ const PortfolioTwo = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="/assets/img/portfolio/2-2.png" alt="Eram" />
+                    <img src=process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png" alt="Eram" />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
@@ -145,7 +145,7 @@ const PortfolioTwo = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="/assets/img/portfolio/2-3.png" alt="Eram" />
+                    <img src=process.env.PUBLIC_URL +"/assets/img/portfolio/2-3.png" alt="Eram" />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
@@ -164,7 +164,7 @@ const PortfolioTwo = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="/assets/img/portfolio/2-2.png" alt="Eram" />
+                    <img src=process.env.PUBLIC_URL +"/assets/img/portfolio/2-2.png" alt="Eram" />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">
@@ -183,7 +183,7 @@ const PortfolioTwo = () => {
               <div>
                 <div className="portfolio-card style2">
                   <div className="portfolio-card-thumb">
-                    <img src="/assets/img/portfolio/2-3.png" alt="Eram" />
+                    <img src=process.env.PUBLIC_URL +"/assets/img/portfolio/2-3.png" alt="Eram" />
                   </div>
                   <div className="portfolio-card-details">
                     <div className="media-left">

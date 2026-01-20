@@ -34,7 +34,7 @@ const HeroScaffold = () => {
                       >
                         <span>
                           <img
-                            src="/assets/img/hero/hero_shape_3.png"
+                            src={process.env.PUBLIC_URL +"/assets/img/hero/hero_shape_3.png"}
                             alt="Eram"
                           />
                           Eram Company Ltd
@@ -66,7 +66,7 @@ const HeroScaffold = () => {
                         </Link>
                         {/* <div className="call-media-wrap">
                           <div className="icon">
-                            <img src="/assets/img/icon/phone-1.svg" alt="Eram" />
+                            <img src={process.env.PUBLIC_URL +"/assets/img/icon/phone-1.svg" alt="Eram" />
                           </div>
                           <div className="media-body">
                             <h6 className="title text-white">
@@ -118,7 +118,7 @@ const HeroScaffold = () => {
                       >
                         <span>
                           <img
-                            src="/assets/img/hero/hero_shape_3.png"
+                            src={process.env.PUBLIC_URL +"/assets/img/hero/hero_shape_3.png"}
                             alt="Eram"
                           />
                           Eram Company Ltd
@@ -150,7 +150,7 @@ const HeroScaffold = () => {
                         </Link>
                         {/* <div className="call-media-wrap">
                           <div className="icon">
-                            <img src="/assets/img/icon/phone-1.svg" alt="Eram" />
+                            <img src={process.env.PUBLIC_URL +"/assets/img/icon/phone-1.svg" alt="Eram" />
                           </div>
                           <div className="media-body">
                             <h6 className="title text-white">
@@ -202,7 +202,7 @@ const HeroScaffold = () => {
                       >
                         <span>
                           <img
-                            src="/assets/img/hero/hero_shape_3.png"
+                            src={process.env.PUBLIC_URL +"/assets/img/hero/hero_shape_3.png"}
                             alt="Eram"
                           />
                           Eram Company Ltd
@@ -234,7 +234,7 @@ const HeroScaffold = () => {
                         </Link>
                         {/* <div className="call-media-wrap">
                           <div className="icon">
-                            <img src="/assets/img/icon/phone-1.svg" alt="Eram" />
+                            <img src={process.env.PUBLIC_URL +"/assets/img/icon/phone-1.svg" alt="Eram" />
                           </div>
                           <div className="media-body">
                             <h6 className="title text-white">
@@ -286,7 +286,7 @@ const HeroScaffold = () => {
                       >
                         <span>
                           <img
-                            src="/assets/img/hero/hero_shape_3.png"
+                            src={process.env.PUBLIC_URL +"/assets/img/hero/hero_shape_3.png"}
                             alt="Eram"
                           />
                           Eram Company Ltd
@@ -318,7 +318,7 @@ const HeroScaffold = () => {
                         </Link>
                         {/* <div className="call-media-wrap">
                           <div className="icon">
-                            <img src="/assets/img/icon/phone-1.svg" alt="Eram" />
+                            <img src={process.env.PUBLIC_URL +"/assets/img/icon/phone-1.svg" alt="Eram" />
                           </div>
                           <div className="media-body">
                             <h6 className="title text-white">

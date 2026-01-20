@@ -54,7 +54,7 @@ const HeaderTwo = () => {
             <div className="col-auto d-none d-lg-block">
               <div className="header-logo">
                 <Link to="/">
-                  <img src="/assets/img/icon/14.webp" alt="Eram" style={{height:'70px'}}/>
+                  <img src={process.env.PUBLIC_URL +"/assets/img/icon/14.webp"} alt="Eram" style={{height:'70px'}}/>
                 </Link>
               </div>
             </div>
@@ -66,7 +66,7 @@ const HeaderTwo = () => {
               <div className="col-auto header-navbar-logo">
                 <div className="header-logo">
                   <Link to="/">
-                    <img src="/assets/img/logo-white.svg" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/logo-white.svg"} alt="Eram" />
                   </Link>
                 </div>
               </div>
@@ -345,7 +345,7 @@ const HeaderTwo = () => {
           <div className="mobile-menu-area">
             <div className="mobile-logo">
               <Link to="/">
-                <img src="/assets/img/logo.svg" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/logo.svg"} alt="Eram" />
               </Link>
               <button className="menu-toggle" onClick={mobileMenu}>
                 <i className="fa fa-times" />

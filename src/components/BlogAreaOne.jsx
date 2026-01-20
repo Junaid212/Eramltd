@@ -8,12 +8,12 @@ const BlogAreaOne = () => {
         <div className="blog-shape-img1 shape-mockup d-lg-block d-none">
           <img
             className="about1-shape-img-1 spin"
-            src="/assets/img/normal/about_shape1-2.svg"
+            src={process.env.PUBLIC_URL +"/assets/img/normal/about_shape1-2.svg"}
             alt="Eram"
           />
           <img
             className="about1-shape-img-2 spin2"
-            src="/assets/img/normal/about_shape1-1.svg"
+            src={process.env.PUBLIC_URL +"/assets/img/normal/about_shape1-1.svg"}
             alt="Eram"
           />
         </div>
@@ -61,7 +61,7 @@ const BlogAreaOne = () => {
                 <div>
                   <div className="blog-card">
                     <div className="blog-img">
-                      <img src="/assets/img/blog/blog_s1_3.png" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/blog/blog_s1_3.png"} alt="Eram" />
                       <div className="blog-date">
                         <Link to="/blog">
                           <span>17</span>Feb
@@ -96,7 +96,7 @@ const BlogAreaOne = () => {
                 <div>
                   <div className="blog-card">
                     <div className="blog-img">
-                      <img src="/assets/img/blog/blog_s1_1.png" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/blog/blog_s1_1.png"} alt="Eram" />
                       <div className="blog-date">
                         <Link to="/blog">
                           <span>17</span>Feb
@@ -131,7 +131,7 @@ const BlogAreaOne = () => {
                 <div>
                   <div className="blog-card">
                     <div className="blog-img">
-                      <img src="/assets/img/blog/blog_s1_3.png" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/blog/blog_s1_3.png"} alt="Eram" />
                       <div className="blog-date">
                         <Link to="/blog">
                           <span>17</span>Feb
@@ -166,7 +166,7 @@ const BlogAreaOne = () => {
                 <div>
                   <div className="blog-card">
                     <div className="blog-img">
-                      <img src="/assets/img/blog/blog_s1_1.png" alt="Eram" />
+                      <img src={process.env.PUBLIC_URL +"/assets/img/blog/blog_s1_1.png"} alt="Eram" />
                       <div className="blog-date">
                         <Link to="/blog">
                           <span>17</span>Feb

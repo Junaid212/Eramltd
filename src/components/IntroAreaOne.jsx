@@ -17,7 +17,7 @@ const IntroAreaOne = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-fact-wrap">
                 <div className="thumb">
-                  <img src="/assets/img/fact/1.png" alt="Eram" />
+                  <img src={process.env.PUBLIC_URL +"/assets/img/fact/1.png" alt="Eram" />
                 </div>
                 <div className="details">
                   <h2>
@@ -39,7 +39,7 @@ const IntroAreaOne = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-fact-wrap">
                 <div className="thumb">
-                  <img src="/assets/img/fact/2.png" alt="Eram" />
+                  <img src={process.env.PUBLIC_URL +"/assets/img/fact/2.png" alt="Eram" />
                 </div>
                 <div className="details">
                   <h2>
@@ -61,7 +61,7 @@ const IntroAreaOne = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-fact-wrap">
                 <div className="thumb">
-                  <img src="/assets/img/fact/3.png" alt="Eram" />
+                  <img src={process.env.PUBLIC_URL +"/assets/img/fact/3.png" alt="Eram" />
                 </div>
                 <div className="details">
                   <h2>
@@ -82,7 +82,7 @@ const IntroAreaOne = () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-fact-wrap">
                 <div className="thumb">
-                  <img src="/assets/img/fact/4.png" alt="Eram" />
+                  <img src={process.env.PUBLIC_URL +"/assets/img/fact/4.png" alt="Eram" />
                 </div>
                 <div className="details">
                   <h2>
@@ -146,7 +146,7 @@ const IntroAreaOne = () => {
               <div>
                 <div className="single-intro-wrap">
                   <div className="thumb">
-                    <img src="/assets/img/elect/59.webp" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/elect/59.webp"} alt="Eram" />
                   </div>
                   <div className="details">
                     <h3>Temporary Camp Facility TCF</h3>
@@ -162,7 +162,7 @@ const IntroAreaOne = () => {
               <div>
                 <div className="single-intro-wrap">
                   <div className="thumb">
-                    <img src="/assets/img/elect/60.webp" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/elect/60.webp"} alt="Eram" />
                   </div>
                   <div className="details">
                     <h3>Customised Panelboard System</h3>
@@ -178,7 +178,7 @@ const IntroAreaOne = () => {
               <div>
                 <div className="single-intro-wrap style-2">
                   <div className="thumb">
-                    <img src="/assets/img/elect/61.webp" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/elect/61.webp"} alt="Eram" />
                   </div>
                   <div className="details">
                     <h3>Breakers -
@@ -196,7 +196,7 @@ Relays - Timers</h3>
               <div>
                 <div className="single-intro-wrap">
                   <div className="thumb">
-                    <img src="/assets/img/elect/62.webp" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/elect/62.webp"} alt="Eram" />
                   </div>
                   <div className="details">
                     <h3>Cables</h3>
@@ -212,7 +212,7 @@ Relays - Timers</h3>
               <div>
                 <div className="single-intro-wrap">
                   <div className="thumb">
-                    <img src="/assets/img/elect/63.webp" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/elect/63.webp"} alt="Eram" />
                   </div>
                   <div className="details">
                     <h3>Cable Lugs -
@@ -230,7 +230,7 @@ Ferrules</h3>
               <div>
                 <div className="single-intro-wrap style-2">
                   <div className="thumb">
-                    <img src="/assets/img/elect/64.webp" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/elect/64.webp"} alt="Eram" />
                   </div>
                   <div className="details">
                     <h3>Cable Tray, Cable Cleats & Cable Ties</h3>
@@ -246,7 +246,7 @@ Ferrules</h3>
               <div>
                 <div className="single-intro-wrap style-2">
                   <div className="thumb">
-                    <img src="/assets/img/elect/65.webp" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/elect/65.webp"} alt="Eram" />
                   </div>
                   <div className="details">
                     <h3>MTS - Safety
@@ -264,7 +264,7 @@ Transformer</h3>
               <div>
                 <div className="single-intro-wrap style-2">
                   <div className="thumb">
-                    <img src="/assets/img/elect/66.webp" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/elect/66.webp"} alt="Eram" />
                   </div>
                   <div className="details">
                     <h3>Industrial Plugs
@@ -281,7 +281,7 @@ Transformer</h3>
               <div>
                 <div className="single-intro-wrap style-2">
                   <div className="thumb">
-                    <img src="/assets/img/elect/67.webp" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/elect/67.webp"} alt="Eram" />
                   </div>
                   <div className="details">
                     <h3>Grounding -Lightning</h3>
@@ -297,7 +297,7 @@ Transformer</h3>
               <div>
                 <div className="single-intro-wrap style-2">
                   <div className="thumb">
-                    <img src="/assets/img/elect/68.webp" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/elect/68.webp"} alt="Eram" />
                   </div>
                   <div className="details">
                     <h3>Lighting System</h3>
@@ -313,7 +313,7 @@ Transformer</h3>
               <div>
                 <div className="single-intro-wrap style-2">
                   <div className="thumb">
-                    <img src="/assets/img/elect/69.webp" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/elect/69.webp"} alt="Eram" />
                   </div>
                   <div className="details">
                     <h3>Wiring Devices</h3>
@@ -329,7 +329,7 @@ Transformer</h3>
               <div>
                 <div className="single-intro-wrap style-2">
                   <div className="thumb">
-                    <img src="/assets/img/elect/70.webp" alt="Eram" />
+                    <img src={process.env.PUBLIC_URL +"/assets/img/elect/70.webp"} alt="Eram" />
                   </div>
                   <div className="details">
                     <h3>EMT - PVC

@@ -9,7 +9,7 @@ const SprayLubric = () => {
           <div className="col-xxl-8 col-lg-7">
             <div className="blog-details-card">
               <div className="blog-thumb">
-                <img src="/assets/img/blog/blog_details1_1.png" alt="Eram" />
+                <img src={process.env.PUBLIC_URL +"/assets/img/blog/blog_details1_1.png"} alt="Eram" />
                 {/* <div className="blog-meta">
                   <Link to="/blog-details">
                     <i className="far fa-comments" />
@@ -38,7 +38,7 @@ const SprayLubric = () => {
                   <div className="col-sm-6">
                     <div className="blog-thumb mb-sm-0 mb-30">
                       <img
-                        src="/assets/img/blog/blog_details1_2.png"
+                        src={process.env.PUBLIC_URL +"/assets/img/blog/blog_details1_2.png"}
                         alt="Eram"
                       />
                     </div>
@@ -159,7 +159,7 @@ const SprayLubric = () => {
                     {/* <div className="media-img">
                       <Link to="/blog-details">
                         <img
-                          src="/assets/img/blog/recent-post1.png"
+                          src={process.env.PUBLIC_URL +"/assets/img/blog/recent-post1.png"
                           alt="Eram"
                         />
                       </Link>
@@ -179,7 +179,7 @@ const SprayLubric = () => {
                     {/* <div className="media-img">
                       <Link to="/blog-details">
                         <img
-                          src="/assets/img/blog/recent-post2.png"
+                          src={process.env.PUBLIC_URL +"/assets/img/blog/recent-post2.png"
                           alt="Eram"
                         />
                       </Link>
@@ -199,7 +199,7 @@ const SprayLubric = () => {
                     {/* <div className="media-img">
                       <Link to="/blog-details">
                         <img
-                          src="/assets/img/blog/recent-post3.png"
+                          src={process.env.PUBLIC_URL +"/assets/img/blog/recent-post3.png"
                           alt="Eram"
                         />
                       </Link>
@@ -219,7 +219,7 @@ const SprayLubric = () => {
                     {/* <div className="media-img">
                       <Link to="/blog-details">
                         <img
-                          src="/assets/img/blog/recent-post3.png"
+                          src={process.env.PUBLIC_URL +"/assets/img/blog/recent-post3.png"
                           alt="Eram"
                         />
                       </Link>
@@ -239,7 +239,7 @@ const SprayLubric = () => {
                     {/* <div className="media-img">
                       <Link to="/blog-details">
                         <img
-                          src="/assets/img/blog/recent-post3.png"
+                          src={process.env.PUBLIC_URL +"/assets/img/blog/recent-post3.png"
                           alt="Eram"
                         />
                       </Link>
